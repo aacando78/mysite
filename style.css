@@ -207,8 +207,7 @@ li a:hover:not(.active){
 	height:400px;
 	width:100%;
 	overflow:hidden;
-        z-index:9002;
-        transform: translate(10%, 10%);
+       
 }
 
 .vectors img{
