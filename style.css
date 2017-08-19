@@ -45,7 +45,7 @@ body {
 }
 .slideshow img{
 	width: 1524px;
-	height:2200px;
+	height:350px;
 }
 
 .slide{
@@ -152,17 +152,13 @@ li a:hover:not(.active){
 }
 
 .intro{
-        position:absolute;
-        margin-top: 100pt;
+        
+        margin-top: -75pt;
 	display: block;
-	padding-top:1em;
+	padding-top:0.8em;
 	padding-bottom: 1.5em;
-        z-index:9002;
         font-size:40pt;
-       transform: translate(-50%, -50%);
-       width: 100%;
-       margin-right: -50%;
-       left: 50%;
+       
 }
 .hi{
 	font-family: 'Cedarville Cursive', cursive;
@@ -276,26 +272,22 @@ li a:hover:not(.active){
 }
 
 .add{
-	position: absolute;
+        background-color:light-trasparent;
 	width:100%;
-	min-height: 300px;
-        margin-top: 340px;
-        left: 50%;
-       z-index:9002;
-        transform: translate(-50%, -50%);
+	min-height:100px;
+        margin-top: 400px;
+        
 }
 .more{
-	position:relative;
+	position:absolute;
 	font-family: 'Comic Sans MS', cursive;
 	color: white;
 	width:100%;
 	font-size: 58px;
-	margin-top:700px;
+	margin-top:0px;
 	padding-top: 20px;
 	text-align: center;
-         left: 100%;
-        z-index:9002;
-        transform: translate(-100%, -100%);
+         
 }
 @media screen and (max-width: 27em){
 	.more{
@@ -304,13 +296,13 @@ li a:hover:not(.active){
 	padding-top: 20px;
 }
 	.core img{
-		padding-top: 80px;
+		padding-top: 180px;
 		height:auto;
-		width:30%;
+		width:80%;
 		float:left;
 		object-fit: cover;
 		overflow: hidden;
-        z-index:9002;
+     
 	}
 	.feedback{
 		padding-top: 180px;
@@ -323,15 +315,15 @@ li a:hover:not(.active){
 }
 .box p{
 	display: block;
-	position: relative;
+	position: absolute;
 	margin-top:400px;
 	width:60rem;
 	text-align: center;
 	background-color: white;
 	margin:0px auto;
 	font-size: 35px;
-	box-shadow: 5px 5px 5px #000;
-        z-index:9002;
+        box-shadow: 5px 5px 5px #000;
+     
 }
 @media screen and (max-width: 49.2em) and (min-width: 40.21em){
 .box{
@@ -367,7 +359,7 @@ li a:hover:not(.active){
 		float:right;
 		object-fit: cover;
 		overflow: hidden;
-                z-index:9001;
+              
                  
 	}		
 	.feedback{padding-top:50px; margin-top: 50px;}
@@ -380,7 +372,7 @@ li a:hover:not(.active){
 		float:right;
 		object-fit: cover;
 		overflow: hidden;
-                z-index:9001;
+               
               
 	}
 	.box{
@@ -397,14 +389,13 @@ li a:hover:not(.active){
 	width:100%;
 	height:auto;
 	min-height: 350px;
-        z-index:9001;
+       
         
 }
 
 .core img{
         height:100%;
-        z-index:9001;
-        transform: translate(0%,30%)
+       
        
 }
 .feedback{
@@ -413,7 +404,7 @@ li a:hover:not(.active){
 	width:100%;
 	margin-top: 250px;
 	min-height:400px;
-        z-index:9002;
+       
 }
 .feedback p{
 	display: block;
@@ -425,11 +416,10 @@ li a:hover:not(.active){
 	font-size: 40px;
 	margin-top: 20px;
 	text-align: center;
-       z-index:9002;
+	background-color:light-blue;
+      
 }
-.register p{
-       z-index:9002;
-}
+
 #form{
 	display: block;
 	margin-top:50px;
@@ -446,17 +436,17 @@ input[type=text],input[type=textarea]{
 	background-color: rgba(0,0,0,0);
 	outline: none;
 	color: white;
-        z-index:9002;
+      
 }
 input[type=textarea]{
 	height:70px;
 	margin-bottom:  0px;
-        z-index:9002;
+        
 
 }
 input[type=text]:focus,input[type=textarea]:focus{
 	box-shadow: inset 0 0 5px #FFF;
-         z-index:9002;
+     
 }
 input[type=button]{
 	color: white;
@@ -472,11 +462,11 @@ input[type=button]{
 	border-radius: 5px;  
 	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-        z-index:9002;
+        
 }
 input[type=button]:hover{
 	box-shadow: inset 0 0 10px #FFF;
-        z-index:9002;
+       
 }
 
 footer{
@@ -509,7 +499,7 @@ footer > p {
 	width:30em;
 	height: auto;
 	padding-top:100px;
-          z-index:9002;
+       
         
 }
 #board{
@@ -519,7 +509,7 @@ footer > p {
 	right:30px;
 	width:45em;
 	height:auto;
-          z-index:9002;
+        
 }
 .boardtext{
 	position:absolute;
@@ -529,7 +519,7 @@ footer > p {
 	width:36em;
 	text-align: center;
 	font-size: 18px;
-         z-index:9002;
+       
 }
 .anintro{
 	font-family: 'Allura', cursive;
@@ -541,7 +531,7 @@ footer > p {
 	height:auto;
 	right:40px;
 	margin-bottom:-10px;
-          z-index:9002;
+        
 }
 @media screen and (max-width:95em) and (min-width:45em){
 	.about{
@@ -557,7 +547,7 @@ footer > p {
 		position:static;
 		margin-right: auto;
 		margin-left: auto;
-                 z-index:9002;
+               
 	}
 	#board{
 		display:block;
@@ -568,7 +558,7 @@ footer > p {
 		position: static;
 		margin-right: auto;
 		margin-left: auto;
-                  z-index:9002;
+                  
 	}
 	.boardtext{
 		margin-top:-640px;
@@ -582,7 +572,7 @@ footer > p {
 		right:0px;
 		margin-left: auto;
 		margin-right: auto;
-                  z-index:9002;
+                 
 	}
 	.boardtext img{
 		width:100%;
@@ -602,7 +592,7 @@ footer > p {
 		position:static;
 		margin-right: auto;
 		margin-left: auto;
-                 z-index:9002;
+               
 	}
 	#board{
 		display:block;
@@ -613,7 +603,7 @@ footer > p {
 		position: static;
 		margin-right: auto;
 		margin-left: auto;
-                  z-index:9002;
+                
 	}
 	.anintro{font-size: 42px;
 		margin-top: 54px;
@@ -634,7 +624,7 @@ footer > p {
 	}
 	.boardtext img{
 		width:100%;
-                  z-index:9002;ww
+                  
 	}
 }
 @media screen and (max-width:34.99em) and (min-width: 29em){
@@ -651,7 +641,7 @@ footer > p {
 		position:static;
 		margin-right: auto;
 		margin-left: auto;
-                  z-index:9002;
+                 
 	}
 	#board{
 		display:block;
