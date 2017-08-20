@@ -8,10 +8,14 @@ body {
 	position:absolute;
 	padding:20px -20px;
 	z-index:9002;
-	width:50%;
+	width:70%;
 	height:auto;
-	font-size: 50pt;
+	font-size: 70pt;
 	color:white;
+	border-style: solid;
+	border-color: white;
+	border-width:5px;
+	border-radius: 5px;
 	left: 50%;
     margin-right: -50%;
     top:20%;
@@ -51,7 +55,7 @@ body {
 .slide{
 	position: absolute;
 	width:100%;
-	height:100%;
+	height:350px;
 	overflow: hidden;
 	display:block;
 	object-fit: contain;
@@ -66,27 +70,22 @@ body {
 #s1{
 	background:url("images/slideshow/1.jpg");
 	background-size:100% 100%;
-	z-index: -1;
 }
 #s2{
 	background:url("images/slideshow/2.jpg");
 	background-size:100% 100%;
-	z-index: -1;
 }
 #s3{
 	background:url("images/slideshow/3.jpg");
 	background-size:100% 100%;
-	z-index: -1;
 }
 #s4{
 	background:url("images/slideshow/4.jpg");
 	background-size:100% 100%;
-	z-index: -1;
 }
 #s5{
 	background:url("images/slideshow/5.jpg");
 	background-size:100% 100%;
-	z-index: -1;
 }
 
 @-webkit-keyframes fade {
@@ -100,7 +99,7 @@ body {
 }
 
 .navtop {
-	text-align: right;
+	text-align: center;
 	position:fixed;
 	width:100%;
 	height:51px;
@@ -114,9 +113,8 @@ body {
 	width:100%;
 	height:51px;
 	background-color: rgba(0,0,0,0.5);
-	bottom:300px;
+	bottom:0px;
 	z-index:9000;
-        text-align:right;
 }
 ul{
 	display: inline-block;
@@ -152,13 +150,11 @@ li a:hover:not(.active){
 }
 
 .intro{
-        
-        margin-top: -75pt;
+	margin-top: -75pt;
 	display: block;
+	background-color: #ecf0f1;
 	padding-top:0.8em;
 	padding-bottom: 1.5em;
-        font-size:40pt;
-       
 }
 .hi{
 	font-family: 'Cedarville Cursive', cursive;
@@ -173,9 +169,8 @@ li a:hover:not(.active){
 	margin:-95px auto;
 	margin-bottom: -20px;
 	width:80%;
+	overflow: hidden;
 	height:5rem;
-        overflow: hidden;
-        
 }
 .hitext{
 	font-size: 26px;
@@ -193,7 +188,7 @@ li a:hover:not(.active){
 }
 
 .mid{
-	margin-top:-28px;
+	margin-top: -28px;
 	width:100%;
 	height:400px;
 
@@ -203,7 +198,6 @@ li a:hover:not(.active){
 	height:400px;
 	width:100%;
 	overflow:hidden;
-       
 }
 
 .vectors img{
@@ -218,7 +212,7 @@ li a:hover:not(.active){
 .vectors #img2{
 	position: relative;
 	display: block;
-        width:200px;
+	width:200px;
 	margin:-350px auto;
 }
 .vectors #img3{
@@ -234,7 +228,7 @@ li a:hover:not(.active){
 .vectors #img2{
 	position: relative;
 	display: block;
-        width:200px;
+	width:200px;
 	margin:-350px auto;
 }
 .vectors #img3{
@@ -272,22 +266,19 @@ li a:hover:not(.active){
 }
 
 .add{
-        background-color:#B0E0E6;
+	background-color: #2980b9;
 	width:100%;
-	min-height:100px;
-        
-        
+	min-height: 400px;
 }
 .more{
-	position:absolute;
-	font-family: 'Comic Sans MS', cursive;
+	position: absolute;
+	font-family: 'Abril Fatface', cursive;
 	color: white;
 	width:100%;
 	font-size: 58px;
-	margin-top:0px;
+	margin-top: 0px;
 	padding-top: 20px;
 	text-align: center;
-         
 }
 @media screen and (max-width: 27em){
 	.more{
@@ -302,7 +293,6 @@ li a:hover:not(.active){
 		float:right;
 		object-fit: cover;
 		overflow: hidden;
-     
 	}
 	.feedback{
 		padding-top: 180px;
@@ -311,19 +301,17 @@ li a:hover:not(.active){
 .box{
 	width:48em;
 	margin:0 auto;
-        
 }
 .box p{
 	display: block;
 	position: absolute;
-	margin-top:200px;
+	margin-top: 200px;
 	width:48rem;
 	text-align: center;
 	background-color: white;
 	margin:200px auto;
-	font-size: 35px;
-        box-shadow: 5px 5px 5px #000;
-     
+	font-size: 28px;
+	box-shadow: 5px 5px 5px #000;
 }
 @media screen and (max-width: 49.2em) and (min-width: 40.21em){
 .box{
@@ -334,7 +322,7 @@ li a:hover:not(.active){
 }
 }
 @media screen and (max-width: 24em){
-	.core img{padding-top: 20px;}
+	.core img{padding-top: 10px;}
 	.feedback{padding-top: 20px;}
 	.box p{
 		width: 100%;
@@ -359,8 +347,6 @@ li a:hover:not(.active){
 		float:right;
 		object-fit: cover;
 		overflow: hidden;
-              
-                 
 	}		
 	.feedback{padding-top:50px; margin-top: 50px;}
 }
@@ -372,8 +358,6 @@ li a:hover:not(.active){
 		float:right;
 		object-fit: cover;
 		overflow: hidden;
-               
-              
 	}
 	.box{
 	width:100%;
@@ -389,14 +373,9 @@ li a:hover:not(.active){
 	width:100%;
 	height:auto;
 	min-height: 350px;
-       
-        
 }
-
 .core img{
-        height:100%;
-       
-       
+	height:100%;
 }
 .feedback{
 	display: block;
@@ -404,16 +383,15 @@ li a:hover:not(.active){
 	width:100%;
 	margin-top: -10px;
 	min-height:400px;
-       
 }
 .feedback p{
 	display: block;
 	position: absolute;
 	width:100%;
-	color: black;
+	color: white;
 	font-family: 'Open Sans';
-	font-weight: dark;
-	font-size: 40px;
+	font-weight: lighter;
+	font-size: 36px;
 	margin-top: 20px;
 	text-align: center;
 	
