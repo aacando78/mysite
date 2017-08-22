@@ -154,9 +154,9 @@ li a:hover:not(.active){
 	padding-bottom: 1.5em;
 }
 .hi{
-	font-family: 'Cedarville Cursive', cursive;
-	font-size: 72pt;
-	line-height: 150px;
+	font-family: 'Comic Sans MS', cursive;
+	font-size: 60pt;
+	line-height:100%;
 	text-align:center;
 	background-color:transparent;
 }
