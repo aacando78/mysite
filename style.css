@@ -5,7 +5,7 @@ body {
 }
 
 .name{
-	position:absolute;
+	position:fixed;
 	padding:20px -20px;
 	z-index:9002;
 	width:50%;
@@ -155,8 +155,9 @@ li a:hover:not(.active){
 }
 .hi{
 	font-family: 'Comic Sans MS', cursive;
-	font-size: 60pt;
+	font-size: 72pt;
 	line-height:100%;
+	padding-top:0.8em
 	text-align:center;
 	background-color:transparent;
 }
