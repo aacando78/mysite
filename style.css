@@ -32,7 +32,7 @@ body {
 }
 .slideshow {
 	position: relative;
-	width:100%;
+	width:1524px;
 	height:350px;
 	text-align: center;
 	background-color: white;
@@ -44,13 +44,13 @@ body {
 	margin-left: 0px;
 }
 .slideshow img{
-	width: 100%;
+	width:1524px;
 	height:350px;
 }
 
 .slide{
 	position: absolute;
-	width:100%;
+	width:1524px;
 	height:350px;
 	overflow: hidden;
 	display:block;
