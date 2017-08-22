@@ -157,8 +157,8 @@ li a:hover:not(.active){
 	font-family: 'Comic Sans MS', cursive;
 	font-size: 72pt;
 	line-height:100%;
-	padding-top:0.8em
 	text-align:center;
+	padding-top:1em
 	background-color:transparent;
 }
 .intro img{
@@ -371,6 +371,7 @@ li a:hover:not(.active){
 	width:100%;
 	height:auto;
 	min-height: 350px;
+	margin-top:300px;
 }
 .core img{
 	height:100%;
