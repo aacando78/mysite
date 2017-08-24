@@ -297,7 +297,7 @@ li a:hover:not(.active){
 }
 .box{
 	width:48em;
-	margin:500px;
+	margin:0 auto;
 }
 .box p{
 	display: block;
