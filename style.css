@@ -267,7 +267,7 @@ li a:hover:not(.active){
 	background-color:#B0E0E6;
 	width:100%;
 	min-height: 400px;
-	margin-top:200px;
+	
 }
 .more{
 	position: absolute;
@@ -288,7 +288,8 @@ li a:hover:not(.active){
 	.core img{
 		padding-top: 180px;
 		height:auto;
-		width:100%;
+		width:150%;
+		float:right;
 		object-fit: cover;
 		overflow: hidden;
 	}
@@ -341,7 +342,8 @@ li a:hover:not(.active){
 	.core img{
 		padding-top: 50px;
 		height:auto;
-		width:100%;
+		width:150%;
+		float:right;
 		object-fit: cover;
 		overflow: hidden;
 	}		
@@ -351,7 +353,8 @@ li a:hover:not(.active){
 	.core img{
 		padding-top: 10px;
 		height:auto;
-		width:100%;
+		width:150%;
+		float:right;
 		object-fit: cover;
 		overflow: hidden;
 	}
