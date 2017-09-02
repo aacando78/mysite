@@ -267,6 +267,7 @@ li a:hover:not(.active){
 	background-color:#B0E0E6;
 	width:100%;
 	min-height: 400px;
+	margin-top:300px
 	
 }
 .more{
@@ -342,9 +343,8 @@ li a:hover:not(.active){
 	.core img{
 		padding-top: 50px;
 		height:auto;
-		width:150%;
-		float:right;
-		object-fit: cover;
+		width:100%;
+	        object-fit: cover;
 		overflow: hidden;
 	}		
 	.feedback{padding-top:50px; margin-top: 50px;}
@@ -353,9 +353,8 @@ li a:hover:not(.active){
 	.core img{
 		padding-top: 10px;
 		height:auto;
-		width:150%;
-		float:right;
-		object-fit: cover;
+		width:100%;
+	         object-fit: cover;
 		overflow: hidden;
 	}
 	.box{
@@ -372,7 +371,7 @@ li a:hover:not(.active){
 	width:100%;
 	height:auto;
 	min-height: 350px;
-	margin-top:400px;
+	margin-top:200px;
 }
 .core img{
 	height:100%;
