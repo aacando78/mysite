@@ -264,7 +264,7 @@ li a:hover:not(.active){
 }
 
 .add{
-	background-color:#B0E0E6;
+	background-color:hsl(185, 16%, 84%);
 	width:100%;
 	min-height: 400px;
 	margin-top:300px
@@ -273,10 +273,10 @@ li a:hover:not(.active){
 .more{
 	position: absolute;
 	font-family: 'Abril Fatface', cursive;
-	color: white;
+	color: black;
 	width:100%;
 	font-size: 58px;
-	margin-top: 200px;
+	margin-top: 150px;
 	padding-top: 20px;
 	text-align: center;
 }
@@ -298,21 +298,21 @@ li a:hover:not(.active){
 		padding-top: 180px;
 	}
 }
-.box{
+ .box{
 	width:48em;
-	margin:0 auto;
+	margin:auto;
+
 }
 .box p{
 	display: block;
-	position: absolute;
-	margin-top: 200px;
+	
 	width:48rem;
 	text-align: center;
 	background-color: white;
-	margin:200px auto;
+	
 	font-size: 28px;
 	box-shadow: 5px 5px 5px #000;
-}
+} 
 @media screen and (max-width: 49.2em) and (min-width: 40.21em){
 .box{
 	width:100%;
@@ -370,8 +370,8 @@ li a:hover:not(.active){
 .core{
 	width:100%;
 	height:auto;
-	min-height: 350px;
-	margin-top:200px;
+	min-height: 400px;
+	/* margin-top:200px; */
 }
 .core img{
 	height:100%;
@@ -464,7 +464,7 @@ footer > p {
 }
 .about{
 	padding-top: 50px;
-	background-color: #FFA500;
+	background-color: #cec6b8;
 	margin-bottom: 0px;
 	height:650px;
 }
@@ -829,7 +829,7 @@ footer > p {
 	width:100%;
 	text-align: justify;
     text-justify: distribute-all-lines;
-	background-color: #FFA500;
+	background-color: #cec6b8;
 }
 .contactme{
 	display: block;
@@ -838,7 +838,7 @@ footer > p {
 	width:10in;
 	margin-top:-50px;
 	padding-bottom: 2px;
-	background-color: #0000FF;
+	background-color: #8f05ffab;
 	text-align: center;
 	box-shadow: 2px 2px 5px;
 }
